@@ -1,0 +1,81 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahnschrift', sans-serif; 
+}
+
+body {
+    background-image: url('wallpapersden.com_small-memory_1920x1080.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    backdrop-filter: blur(10px); /* Glass morphism effect */
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Box shadow for glass effect */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('passport size.jpg'); 
+    background-size: cover;
+    margin: 0 auto 10px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-button {
+    background: linear-gradient(45deg, #008cff, #ff9900); /* Gradient background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.nav-button:hover {
+    background: linear-gradient(45deg, #ca1d1d, #3a34b5); /* Lighten the gradient on hover */
+}
+
+.section {
+    display: none;
+}
+
+
+.social-links a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.projects p {
+    margin-bottom: 15px;
+}
+
+.projects p:last-child {
+    margin-bottom: 0;
+}
